@@ -1,5 +1,7 @@
 'use strict';
 
+console.log("Welcome to JS");
+
 const formEl = document.getElementById("myForm");
 let table = document.getElementById("myFood");
 
@@ -12,7 +14,7 @@ function FoodCons(name, type) {
     this.name = name;
     this.type = type;
 
-    this.price;
+    this.price;  //  null
     foodArr.push(this);
 
     setData();
@@ -122,3 +124,4 @@ function getData() {
 }
 
 getData();
+
